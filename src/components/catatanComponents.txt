@@ -1,0 +1,6 @@
+Folder components adalah tempat unutk menyimpan komponen-komponen kecil
+yang akan digunakan sebagai komponen pembangun untuk membuat suatu halaman web
+
+1.  Komponen didalam folder atom secara default tidak boleh memeiliki margin karena
+    semua komponen atom harus mampu di terapkan di page mana saja. Alternatif untuk menghadapi itu
+    adalah dengan membuat komponen Gap yang dapat di atur lebar atau tingginya dengan menggunakan probs react

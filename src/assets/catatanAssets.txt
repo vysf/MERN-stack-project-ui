@@ -1,0 +1,2 @@
+Folder assets adalah tempat untukk menyimpan semua aset seperti gambar, video, icon,
+gif, file-file json, file-file dummy data, dan lain-lain

@@ -1,0 +1,1 @@
+Folder config adalah tempat untuk menyimpan semua konfigurasi seperti routing api dll 

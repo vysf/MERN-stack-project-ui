@@ -1,0 +1,2 @@
+Folder utils adalah tempat untuk menyimpan fungsi-fungsi yang sering digunakan untuk keperluan di 
+folder pages
