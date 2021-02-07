@@ -1,6 +1,6 @@
 # MERN-stack-project-ui
 
-Ini adalah front-end berupa UI dari latihan MERN Stack. UI ini dapat melakukan Create, Read, Update, dan Delete blog post dengan menghubungkanya dengan REST API dari repositori `MERN-stack-project-api`. Selanjutnya perlu menambahkan fitur autentikasi akun pengguna.
+Ini adalah front-end berupa UI dari latihan MERN Stack. UI ini dapat melakukan Create, Read, Update, dan Delete blog post dengan menghubungkanya dengan REST API dari repositori [MERN-stack-project-api](https://github.com/vysf/MERN-stack-project-api). Selanjutnya perlu menambahkan fitur autentikasi akun pengguna.
 
 ### Package
 
@@ -8,8 +8,10 @@ Ini adalah front-end berupa UI dari latihan MERN Stack. UI ini dapat melakukan C
 - node-sass 4.14.1
 - react 17.0.1
 - react-dom 17.0.1
+- react-confirm-alert 2.7.0
 - react-redux 7.2.2
 - react-router-dom 5.2.0
 - react-scripts 4.0.1
 - redux 4.0.5
+- redux-thunk 2.3.0
 - web-vitals 0.2.4

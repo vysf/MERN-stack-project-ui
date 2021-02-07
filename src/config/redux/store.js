@@ -1,21 +1,8 @@
-// import { createStore } from "redux";
-
 // untuk membuat state secara GLOBAL
-const { createStore } = require("redux");
+import { applyMiddleware, createStore } from "redux";
+import thunk from "redux-thunk";
+import reducer from "./reducer/reducer";
 
-const initialState = {
-  dataBlog: [],
-  name: "Yusuf Umar",
-};
-const reducer = (state = initialState, action) => {
-  if (action.type === "UPDATE_DATA_BLOG") {
-    return {
-      ...state,
-      dataBlog: action.payload,
-    };
-  }
-  return state;
-};
-const store = createStore(reducer);
+const store = createStore(reducer, applyMiddleware(thunk));
 
 export default store;
